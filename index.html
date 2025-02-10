@@ -87,6 +87,26 @@
         .gallery img:hover {
             transform: scale(1.1);
         }
+                .hero {
+            height: 100vh;
+            background-image: url('cuteee.jpg'); /* Replace with Sunaina's image */
+            background-size: contain; /* Ensures the entire image is visible */
+            background-position: center center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents image from repeating */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ff70a6;
+            font-family: 'Great Vibes', cursive;
+            font-size: 3rem;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .hero {
+                font-size: 2rem; /* Adjust font size for smaller screens */
+            }
+        }
         
     </style>
 </head>
